@@ -1,4 +1,4 @@
-class ManimDSL < Formula
+class Manimdsl < Formula
   desc "A command line tool to animate data structures using Manim"
   homepage "https://github.com/ManimDSL/ManimDSLCompiler"
   url "https://github.com/ManimDSL/ManimDSLCompiler/releases/download/latest/compiler.jar"
@@ -13,6 +13,6 @@ class ManimDSL < Formula
 
   def install
     system "/usr/local/bin/brew", "cask", "install", "mactex"
-    bin.install "ManimDSL"
+    bin.install "manimdsl"
   end
 end
