@@ -8,11 +8,11 @@ class ManimDSL < Formula
   depends_on "cairo"
   depends_on "sox"
   depends_on "ffmpeg"
-  depends_on cask: "mactex"
 
   bottle :unneeded
 
   def install
+    system "/usr/local/bin/brew", "cask", "install", "mactex"
     bin.install "manimdsl"
   end
 end
