@@ -12,7 +12,7 @@ class Manimdsl < Formula
   bottle :unneeded
 
   def install
-    system "/usr/local/bin/brew", "cask", "install", "mactex"
+    system "/usr/local/bin/brew", "install", "--cask", "mactex"
     bin.install "manimdsl"
   end
 end
