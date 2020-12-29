@@ -13,6 +13,6 @@ class ManimDSL < Formula
 
   def install
     system "/usr/local/bin/brew", "cask", "install", "mactex"
-    bin.install "manimdsl"
+    bin.install "ManimDSL"
   end
 end
