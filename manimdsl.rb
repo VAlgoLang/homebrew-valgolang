@@ -2,7 +2,7 @@ class Manimdsl < Formula
   desc "A command line tool to animate data structures using Manim"
   homepage "https://github.com/ManimDSL/ManimDSLCompiler"
   url "https://github.com/ManimDSL/ManimDSLCompiler/releases/download/latest/brew_zip.zip"
-  sha256 "c582ec6abdb3fbd6ab92b102e16258f0926c11d835fc1ac8b43eb46f208f2d47"
+  sha256 "a3a750087f80be7ebe99f4350d8f9262a8bd004b1f86af89aed0711dd3329850"
   version "latest"
 
   depends_on "cairo"
