@@ -8,7 +8,7 @@ class ManimDSL < Formula
   depends_on "cairo"
   depends_on "sox"
   depends_on "ffmpeg"
-  depends_on :mactex
+  depends_on cask: "mactex"
 
   bottle :unneeded
 
