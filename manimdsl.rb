@@ -15,8 +15,8 @@ class Manimdsl < Formula
   def install
     system "/usr/local/bin/brew", "install", "--cask", "mactex"
 #     system "/usr/local/bin/pip3", "install", "manimlib"    
-    inreplace "brew/manimdsl", "##PREFIX##", "#{prefix}"
+    inreplace "manimdsl", "##PREFIX##", "#{prefix}"
     prefix.install "compiler.jar"
-    bin.install "brew/manimdsl"
+    bin.install "manimdsl"
   end
 end
