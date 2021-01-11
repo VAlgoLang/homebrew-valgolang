@@ -15,7 +15,7 @@ class Valgolang < Formula
   def install
     system "/usr/local/bin/brew", "install", "--cask", "mactex"
     system "/usr/local/bin/pip3", "install", "manimlib"    
-    inreplace "valgolang", "##PREFIX##", "#{prefix}"
+    inreplace "manimdsl", "##PREFIX##", "#{prefix}"
     prefix.install "compiler.jar"
     bin.install "valgolang"
   end
