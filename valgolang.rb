@@ -17,6 +17,6 @@ class Valgolang < Formula
     system "/usr/local/bin/pip3", "install", "manimlib"    
     inreplace "manimdsl", "##PREFIX##", "#{prefix}"
     prefix.install "compiler.jar"
-    bin.install "valgolang"
+    bin.install "manimdsl"
   end
 end
