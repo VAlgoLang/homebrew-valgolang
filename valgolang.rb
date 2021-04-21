@@ -13,7 +13,6 @@ class Valgolang < Formula
   bottle :unneeded
 
   def install
-    system "/usr/local/bin/pip3", "install", "manimlib"    
     bin.install "valgolang-macos-latest" => "valgolang"
   end
 end
