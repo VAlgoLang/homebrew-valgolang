@@ -1,8 +1,8 @@
 class Valgolang < Formula
   desc "A command line tool to animate data structures using Manim"
   homepage "https://github.com/VAlgoLang/VAlgoLang"
-  url "https://github.com/VAlgoLang/VAlgoLang/releases/download/latest/brew_zip.zip"
-  sha256 "22a8ed2882b72ec6207a4620b9a03146adc3a66a2d35d6e0c901f4f59802f135"
+  url "https://github.com/VAlgoLang/VAlgoLang/releases/download/latest/valgolang-macos-latest"
+  sha256 "1bc658f073d9eee5fce87a10490e8c37a7ec2864f9560c9d989eef4c11889591"
   version "latest"
 
   depends_on "cairo"
